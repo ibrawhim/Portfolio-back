@@ -22,7 +22,7 @@ const contact = (req, res) => {
     from: req.body.email,
     to: 'ibrahimabiodun069@gmail.com',
     subject: `${req.body.name} checked your portfolio.`,
-    text: `${req.body.message}`
+    html: <h1>`${req.body.message}`</h1>
   };
   
   transporter.sendMail(mailOptions, function(error, info){
