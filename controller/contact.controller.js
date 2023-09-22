@@ -22,8 +22,7 @@ const contact = (req, res) => {
     from: req.body.email,
     to: 'ibrahimabiodun069@gmail.com',
     subject: `${req.body.name} checked your portfolio.`,
-    text: `Message from: ${req.body.message} 
-    Email: ${req.body.email}
+    text: `Message from: ${req.body.message} and my email is ${req.body.email}
     `
   };
   
