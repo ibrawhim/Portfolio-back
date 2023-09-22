@@ -20,8 +20,8 @@ const contact = (req, res) => {
   
   var mailOptions = {
     from: req.body.email,
-    to: 'adeniyi.ibrawhim@gmail.com',
-    subject: `${req.body.name} checked your profile`,
+    to: 'ibrahimabiodun069@gmail.com',
+    subject: `${req.body.name} checked your portfolio.`,
     text: `${req.body.message}`
   };
   
