@@ -30,7 +30,7 @@ const contact = (req, res) => {
     if (error) {
       console.log(error);
     } else {
-      res.send({status:true, message:'Message sent! Thanks for checking my Portfolio'})
+      res.send({status:true, message:'Message sent! Thanks for checking my Portfolio.'})
       console.log('Email sent: ' + info.response);
     }
   });;
